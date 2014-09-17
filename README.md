@@ -1,7 +1,7 @@
 psd
 ===
 
-R Implementation of the Poisson Subordinated Distribution
+R Implementation of the Poisson Subordinated Distribution - to capture major leptokurtic features in log-return time series of financial data.
 
 # Status
 
