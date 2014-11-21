@@ -5,7 +5,7 @@ R Implementation of the Poisson Subordinated Distribution - to capture major lep
 
 # Status
 
-I am still looking for a good R template to migrate the existing package.
+I am planning to use `devtools` to migrate the existing package and create a new package.
 
 # R Package
 

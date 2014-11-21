@@ -1,0 +1,49 @@
+exportPattern("^Lihn")
+exportPattern("^LIHNPSD_")
+export(.N, SPSD)
+export(MergeTailHistogram, MergeTailHistogramOneSide, TimeSeriesLogReturn)
+
+# all the S3 methods
+
+exportPattern("^[[:lower:][:digit:]_]+$")
+
+S3method(prepare, LIHNPSD)
+S3method(rawmean, LIHNPSD)
+S3method(rawmu1, LIHNPSD)
+S3method(rawmu2, LIHNPSD)
+S3method(rawmu3, LIHNPSD)
+S3method(rawmu4, LIHNPSD)
+
+S3method(rawsn, LIHNPSD)
+S3method(density, LIHNPSD)
+S3method(rawdensity, LIHNPSD)
+S3method(rawdensity_kth, LIHNPSD)
+S3method(rawdensityslope, LIHNPSD)
+S3method(rawdensity0, LIHNPSD)
+S3method(rawcdf, LIHNPSD)
+S3method(rawcdfinv, LIHNPSD)
+
+S3method(tailindex, LIHNPSD)
+S3method(tailindex_plot, LIHNPSD)
+
+S3method(psdkernel, LIHNPSD)
+S3method(psdmagnitude, LIHNPSD)
+S3method(poisson_sum, LIHNPSD)
+S3method(poisson_sum_kth, LIHNPSD)
+
+S3method(psdunittest, LIHNPSD)
+S3method(generatepdf, LIHNPSD)
+S3method(calcqq, LIHNPSD)
+
+S3method(mu1_analytic, LIHNPSD)
+S3method(mu2_analytic, LIHNPSD)
+S3method(mu3_analytic, LIHNPSD)
+S3method(mu4_analytic, LIHNPSD)
+S3method(mu_n_core, LIHNPSD)
+S3method(psdvariance, LIHNPSD)
+S3method(psdskewness, LIHNPSD)
+S3method(psdkurtosis, LIHNPSD)
+
+S3method(standardfit, LIHNPSD)
+
+
